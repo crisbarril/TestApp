@@ -1,0 +1,6 @@
+framework module Pods_TestAppWatch_Extension {
+  umbrella header "Pods-TestAppWatch Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

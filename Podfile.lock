@@ -1,0 +1,12 @@
+PODS:
+  - LogsFramework (0.0.1)
+
+DEPENDENCIES:
+  - LogsFramework (= 0.0.1)
+
+SPEC CHECKSUMS:
+  LogsFramework: 0cb612cde94b551611c0b66be0945ac06e980d19
+
+PODFILE CHECKSUM: b8c245de6db0a5a57467498e873fa60b96cdfc96
+
+COCOAPODS: 1.4.0
