@@ -134,10 +134,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LogsFramework-watchOS/LogsFramework.framework"
+  install_framework "${PODS_ROOT}/LogsFramework/WatchLogsFramework.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LogsFramework-watchOS/LogsFramework.framework"
+  install_framework "${PODS_ROOT}/LogsFramework/WatchLogsFramework.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

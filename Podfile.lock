@@ -1,12 +1,12 @@
 PODS:
-  - LogsFramework (0.0.1)
+  - LogsFramework (0.0.2)
 
 DEPENDENCIES:
-  - LogsFramework (= 0.0.1)
+  - LogsFramework (= 0.0.2)
 
 SPEC CHECKSUMS:
-  LogsFramework: 0cb612cde94b551611c0b66be0945ac06e980d19
+  LogsFramework: ce7e122f4673c57556ae094ee639648282698642
 
-PODFILE CHECKSUM: b8c245de6db0a5a57467498e873fa60b96cdfc96
+PODFILE CHECKSUM: 845272508b598c3e182454763ba73fbb5a7f1d3c
 
 COCOAPODS: 1.4.0

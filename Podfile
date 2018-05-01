@@ -10,7 +10,7 @@ target 'TestApp' do
   platform :ios, '11.0'
 
   # Pods for TestApp
-  pod 'LogsFramework', '0.0.1' 
+  pod 'LogsFramework', '0.0.2' 
 
   target 'TestAppTests' do
     inherit! :search_paths
@@ -35,6 +35,6 @@ target 'TestAppWatch Extension' do
   platform :watchos, '4.0'
 
   # Pods for TestAppWatch Extension
-  pod 'LogsFramework', '0.0.1' 
+  pod 'LogsFramework', '0.0.2' 
 
 end

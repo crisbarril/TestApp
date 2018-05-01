@@ -1,6 +1,0 @@
-framework module LogsFramework {
-  umbrella header "LogsFramework-watchOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

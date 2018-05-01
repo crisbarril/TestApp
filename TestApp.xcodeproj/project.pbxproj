@@ -472,11 +472,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TestAppWatch Extension/Pods-TestAppWatch Extension-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LogsFramework-watchOS/LogsFramework.framework",
+				"${PODS_ROOT}/LogsFramework/WatchLogsFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LogsFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WatchLogsFramework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,7 +508,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TestApp/Pods-TestApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LogsFramework-iOS/LogsFramework.framework",
+				"${PODS_ROOT}/LogsFramework/LogsFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

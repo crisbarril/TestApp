@@ -1,0 +1,11 @@
+framework module LogsFramework {
+  umbrella header "LogsFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module LogsFramework.Swift {
+    header "LogsFramework-Swift.h"
+    requires objc
+}

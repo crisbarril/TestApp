@@ -1,6 +1,0 @@
-framework module LogsFramework {
-  umbrella header "LogsFramework-iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

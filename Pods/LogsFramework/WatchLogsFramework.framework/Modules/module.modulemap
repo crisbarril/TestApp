@@ -1,0 +1,11 @@
+framework module WatchLogsFramework {
+  umbrella header "WatchLogsFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module WatchLogsFramework.Swift {
+    header "WatchLogsFramework-Swift.h"
+    requires objc
+}

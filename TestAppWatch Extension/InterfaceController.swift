@@ -8,7 +8,7 @@
 
 import WatchKit
 import Foundation
-import LogsFramework
+import WatchLogsFramework
 
 class InterfaceController: WKInterfaceController {
 
